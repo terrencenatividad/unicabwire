@@ -13,8 +13,8 @@
 	<link rel="stylesheet" href="<?= BASE_URL ?>assets/css/owl.theme.default.min.css">
 
 	<script src="<?= BASE_URL ?>assets/js/jquery-2.2.3.min.js"></script>
-	<script src="<?= BASE_URL ?>assets/js/owl.carousel.min.js"></script>
 	<script src="<?= BASE_URL ?>assets/js/bootstrap.min.js"></script>
+	<script src="<?= BASE_URL ?>assets/js/owl.carousel.min.js"></script>
 
 	<link rel="icon" href="<?= BASE_URL ?>assets/images/logo.jpg">
 </head>
@@ -26,15 +26,17 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</button>    
-				<a class="navbar-brand branded" href="<?= BASE_URL ?>"><img height = "100%" src="<?= BASE_URL ?>assets/images/unicab_logo.jpg"></a>
+				</button>
+				<a class="navbar-brand branded" href="<?= BASE_URL ?>"><img height = "100%" src="<?= BASE_URL ?>assets/images/logo.jpg"></a>
 			</div>
-			<div class = "navbar-collapse collapse">
+			<div class = "collapse navbar-collapse" id = "myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="<?= BASE_URL ?>">Homepage</a></li>
-					<li><a href="#">Product</a></li>
-					<li><a href="#">Brand</a></li>
-					<li><a href="<?php BASE_URL ?>contacts">Contact Us</a></li>
+					<li <?php if(MODULE_URL==BASE_URL){ echo 'class="active"';}?>><a href="<?= BASE_URL ?>">Home</a></li>
+					<li <?php if(MODULE_URL==BASE_URL.'products/'){ echo 'class="active"';}?>><a href="<?= BASE_URL ?>products">Products</a></li>
+					<li <?php if(MODULE_URL==BASE_URL.'brand/'){ echo 'class="active"';}?>><a href="<?= BASE_URL ?>brand">Brands</a></li>
+					<li <?php if(MODULE_URL==BASE_URL.'news/'){ echo 'class="active"';}?>><a href="<?= BASE_URL ?>news">News</a></li>
+					<li <?php if(MODULE_URL==BASE_URL.'aboutus/'){ echo 'class="active"';}?>><a href="<?= BASE_URL ?>aboutus">About Us</a></li>
+					<!-- <li <?php if(MODULE_URL==BASE_URL.'join_us/'){ echo 'class="active"';}?>><a href="<?= BASE_URL ?>join_us">Join Us</a></li> -->
 				</ul>
 			</div>
 		</div>

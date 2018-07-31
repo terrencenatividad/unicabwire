@@ -12,7 +12,7 @@ class image_uploader {
 		$this->destination = '/';
 		$this->size			= array();
 		$this->sizes		= array('large', 'thumb');
-		$this->max_size		= (object) array('large' => 800, 'thumb' => 250);
+		$this->max_size		= (object) array('large' => 1905, 'thumb' => 250);
 	}
 
 	public function setSize($size = '') {

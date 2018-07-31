@@ -19,6 +19,8 @@ class controller extends wc_controller {
 		$this->view->title = 'Home';
 		$data['banner'] = $this->home->getBanner($this->fields);
 		$data['products'] = $this->home->getProducts();
+		$data['news'] = $this->home->getNews();
+		$data['about_us'] = $this->home->getAboutUs();
 		$this->view->load('home', $data);
 	}
 }
