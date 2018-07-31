@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 	<footer class="footer">
 		<div class="container">
 			<hr class = "divider" style = "margin-bottom: -5px;">
@@ -43,4 +44,7 @@
 		</div>
 	</footer>
 </body>
+=======
+	</body>
+>>>>>>> 41bcd012ecfb869326d77fd9e0973f29a5a91b15
 </html>

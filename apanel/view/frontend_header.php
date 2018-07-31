@@ -13,8 +13,13 @@
 	<link rel="stylesheet" href="<?= BASE_URL ?>assets/css/owl.theme.default.min.css">
 
 	<script src="<?= BASE_URL ?>assets/js/jquery-2.2.3.min.js"></script>
+<<<<<<< HEAD
 	<script src="<?= BASE_URL ?>assets/js/bootstrap.min.js"></script>
 	<script src="<?= BASE_URL ?>assets/js/owl.carousel.min.js"></script>
+=======
+	<script src="<?= BASE_URL ?>assets/js/owl.carousel.min.js"></script>
+	<script src="<?= BASE_URL ?>assets/js/bootstrap.min.js"></script>
+>>>>>>> 41bcd012ecfb869326d77fd9e0973f29a5a91b15
 
 	<link rel="icon" href="<?= BASE_URL ?>assets/images/logo.jpg">
 </head>
@@ -26,6 +31,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
+<<<<<<< HEAD
 				</button>
 				<a class="navbar-brand branded" href="<?= BASE_URL ?>"><img height = "100%" src="<?= BASE_URL ?>assets/images/logo.jpg"></a>
 			</div>
@@ -37,6 +43,17 @@
 					<li <?php if(MODULE_URL==BASE_URL.'news/'){ echo 'class="active"';}?>><a href="<?= BASE_URL ?>news">News</a></li>
 					<li <?php if(MODULE_URL==BASE_URL.'aboutus/'){ echo 'class="active"';}?>><a href="<?= BASE_URL ?>aboutus">About Us</a></li>
 					<!-- <li <?php if(MODULE_URL==BASE_URL.'join_us/'){ echo 'class="active"';}?>><a href="<?= BASE_URL ?>join_us">Join Us</a></li> -->
+=======
+				</button>    
+				<a class="navbar-brand branded" href="<?= BASE_URL ?>"><img height = "100%" src="<?= BASE_URL ?>assets/images/unicab_logo.jpg"></a>
+			</div>
+			<div class = "navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="<?= BASE_URL ?>">Homepage</a></li>
+					<li><a href="#">Product</a></li>
+					<li><a href="#">Brand</a></li>
+					<li><a href="<?php BASE_URL ?>contacts">Contact Us</a></li>
+>>>>>>> 41bcd012ecfb869326d77fd9e0973f29a5a91b15
 				</ul>
 			</div>
 		</div>
